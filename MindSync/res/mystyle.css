@@ -1,0 +1,199 @@
+
+body{
+    background-color: #ffd7d9;
+    margin: 5em;
+    font-family: 'times new roman';
+    text-align: left;
+    color: #000;
+    line-height: 2em;   
+    text-align: center;
+    
+}
+.navbar{
+    text-align: center;
+/*    background-color: #440099;*/
+    background-image: url(../background/navbar.jpg);
+    line-height: 5em;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+}
+.navbar a{
+    padding: 1em;
+    text-decoration: none;
+    color: #000;
+}
+.navbar a:hover{
+    background-color: #5f8575;
+    color: #fff;
+}
+#loginform{
+    background-color: #fb959a;
+    color: #000;
+    width: 300px;
+    padding: 2em;
+    border-radius: 15px;
+    margin: 15vh auto; 
+    /*    box-shadow: 0px 0px 45px 0px #00007788;*/
+    text-align: center;
+}
+#loginform input{
+    width: 85%;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 10px;
+    border: none;
+}
+#loginform input[type='checkbox']{
+    width: 10%;
+}
+#loginform input[type='submit']{
+    width: 93%;
+    background-color: #ffd7d9;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: .8em;
+}
+#loginform input[type='submit']:hover{
+    background-color: #5f8575;
+    color: #fff;
+    transform: scale(1.18);
+    transition: transform 0.5s;
+}
+#loginform label{
+    margin-top: 1em;
+}
+#loginform select{
+    width: 90%;
+    padding: .5em;
+    margin: .8em;
+    margin-top: .2em;
+    margin-left: .5em;
+    border-radius: 10px;
+    border: none;
+}
+.error_msg{
+    color: red;
+    font-size: .8em;
+}
+
+
+/*wala nay labot aring dapita*/
+/*ambot lang*/
+.create_post_form {
+    
+    background-color: #fff;
+    width: 400px;
+    padding: 3em;
+    border-radius: 10px;
+    margin: 15vh auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    align-content: center;
+    display: block;
+}
+
+.create_post_area {
+    width: 85%;
+    padding: 2em;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+#create_post_content {
+    padding: 1em;
+}
+.create_post_form input[type='submit'] {
+    background-color: #ffd7d9;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.create_post_form input[type='submit']:hover {
+    background-color: #5f8575;
+    transform: scale(1.25);
+    color: #fff;
+}
+
+.post {
+    background-color: #fff;
+    color: #000;
+    padding: 1.5em;
+    margin: 1.5em auto;
+    border-radius: 12px;
+    width: 70%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #000;
+}
+
+.post p {
+    margin: 0.5em;
+    font-size: 1em;
+    color: #000;
+}
+
+.comment_form {
+    margin-top: 1em;
+}
+
+.comment_form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    resize: vertical;
+}
+
+.comment_form input[type='submit'] {
+    background-color: #ffd7d9;
+    color: #000;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.comment_form input[type='submit']:hover {
+    background-color: #5f8575;
+    color: #fff;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    color: #000;
+    padding: 0.8em;
+    margin: 0.8em 0;
+    border-radius: 6px;
+    border-left: 4px solid #5f8575;
+    font-size: 0.95em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comment:hover {
+    transform: translateX(5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment p {
+    margin: 0.3em ;
+    color: #555;
+}
+.comment p strong {
+    margin: 0.3em ;
+    color: #111;
+}
